@@ -18,4 +18,9 @@ public class EmptyClass
     {
         return 0;
     }
+
+    int CalculateAll(int number)
+    {
+        return 0;
+    }
 }
