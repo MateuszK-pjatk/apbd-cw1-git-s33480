@@ -1,5 +1,5 @@
 ﻿using System;
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello from main");
 Console.Write("Podaj cyfre: ");
 string input = Console.ReadLine();
 
