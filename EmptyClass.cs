@@ -13,4 +13,9 @@ public class EmptyClass
         }
         return sum / values.Length;
     }
+
+    int CalculateMax(int[] values)
+    {
+        return 0;
+    }
 }
