@@ -21,6 +21,13 @@ public class EmptyClass
 
     int CalculateMin(int[] values)
     {
-        return 0;
+        if (values == null || values.Length == 0) return 0;
+
+        int sum = 0;
+        foreach (var n in values)
+        {
+            sum += n;
+        }
+        return sum * values.Length;
     }
 }
