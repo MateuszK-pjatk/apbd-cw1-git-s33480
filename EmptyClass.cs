@@ -19,7 +19,13 @@ public class EmptyClass
         return 0;
     }
 
+
     int CalculateAll(int number)
+    {
+        return 0;
+    }
+
+    int CalculateMin(int[] values)
     {
         return 0;
     }
